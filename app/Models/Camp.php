@@ -5,9 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class CampBenefit extends Model
+class Camp extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['camp_id', 'name'];
+    protected $fillable = ['title', 'price'];
 }
